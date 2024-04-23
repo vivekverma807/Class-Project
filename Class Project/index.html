@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <h1 class="h2">Calendar With Current Date and Time</h1>
+    
+    <div class="logo-container">
+      <img src="./Images/logo.jpg" id="logo-left" alt="GLA University">
+      <img src="./Images/logo.jpg" id="logo-right" alt="GLA University">
+    </div>
+    
+    <div class="image">
+      <img src="./Images/vivek.jpg" alt="Owner">
+      <figcaption class="v1">Vivek Kumar Verma</figcaption>
+    </div>
+
+    
+    <div class="container">
+      <div class="calendar">
+        <div class="calendar-header">
+          <span class="month-picker" id="month-picker"> March </span>
+          <div class="year-picker" id="year-picker">
+            <span class="year-change" id="pre-year">
+            <pre>⬅️</pre>
+            </span>
+            <span id="year"> </span>
+            <span class="year-change" id="next-year">
+            <pre>➡️</pre>
+            </span>
+          </div>
+        </div>
+
+        <div class="calendar-body">
+          <div class="calendar-week-days">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="calendar-days">
+          </div>
+          <div class="calendar-footer"></div>
+        </div>
+
+        <div class="date-time-formate">
+
+          <div class="day-text-formate">TODAY</div>
+
+          <div class="date-time-value">
+            <div class="time-formate">24:00:00 </div>
+            <div class="date-formate">00 - Jan - 2000</div>
+          </div>
+
+        </div>
+
+        <div class="month-list"></div>
+
+      </div>
+    </div>
+  </body> 
+  <script src="script.js"></script>
+</html>
